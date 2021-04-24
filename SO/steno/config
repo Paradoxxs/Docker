@@ -1,0 +1,16 @@
+
+{
+  "Threads": [
+    { "PacketsDirectory": "/nsm/pcap"
+    , "IndexDirectory": "/nsm/pcapindex"
+    , "MaxDirectoryFiles": 30000
+    , "DiskFreePercentage": 10
+    }
+  ]
+  , "StenotypePath": "/usr/bin/stenotype"
+  , "Interface": "bond0"
+  , "Port": 1234
+  , "Host": "127.0.0.1"
+  , "Flags": ["-v", "--uid=stenographer", "--gid=stenographer"]
+  , "CertPath": "/etc/stenographer/certs"
+}

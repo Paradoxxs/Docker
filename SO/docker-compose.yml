@@ -1,0 +1,146 @@
+version: "3.8"
+services: 
+    soc:
+
+        image: securityonion/so-soc:2.3.3
+        ports: 
+            - 9822:9822
+        volumes: 
+            - ./soc/soc.json:/opt/sensoroni/sensoroni.json
+            - ./soc/changes.json:/opt/sensoroni/html/changes.json
+
+    kratos: 
+        image: securityonion/so-kratos:2.3.3
+        ports:
+          - 4434:4434
+          - 4433:4433
+        volumes: 
+            - ./kratos/schema.json:/kratos-conf/schema.json:ro    
+            - ./kratos/kratos.yaml:/kratos-conf/kratos.yaml:ro
+            - ./kratos/db:/kratos-data
+            - ./kratos/Logs:/kratos-log
+        user: root
+
+#    suricata:
+#        image: securityonion/so-suricata:2.3.3 
+#        volumes: 
+#            - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml:ro
+#           - ./suricata/threshold.conf:/etc/suricata/threshold.conf:ro
+#           - ./suricata/rules:/etc/suricata/rules:ro
+#           - ./suricata/Logs:/var/log/suricata/:rw
+#           - ./suricata/nsm:/nsm/:rw
+#           - ./suricata/bpf:/etc/suricata/bpf:ro
+
+    elastalert: 
+        depends_on: 
+            - elasticsearch
+        image: securityonion/so-elastalert:2.3.3
+        volumes: 
+            - ./elastalert/Rules:/opt/elastalert/rules/:ro
+            - ./elastalert/Logs:/var/log/elastalert:rw
+            - ./elastalert/modules/:/opt/elastalert/modules/:ro
+            - ./elastalert/elastalert_config.yaml:/opt/config/elastalert_config.yaml:ro
+
+    elasticsearch:
+        image: securityonion/so-elasticsearch:2.3.3
+        ports: 
+            - 9200:9200
+            - 9300:9300
+        volumes:
+            - ./elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+            - ./elasticsearch/log:/var/log/elasticsearch:rw
+            - ./elasticsearch/log4j2.properties:/usr/share/elasticsearch/config/log4j2.properties:ro
+            - ./elasticsearch/nsm:/usr/share/elasticsearch/data:rw
+            - ./elasticsearch/sotls.yml:/usr/share/elasticsearch/config/sotls.yml:ro
+
+    kibana:
+        depends_on: 
+            - elasticsearch
+        image: securityonion/so-kibana:2.3.3
+        ports: 
+            - 5601:5601
+        volumes: 
+            - ./kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+
+    cyberchef:
+        image: mpepping/cyberchef:latest
+        ports: 
+            - 8000:8000
+
+    curator:
+        image: securityonion/so-curator:2.3.3
+        volumes: 
+            - ./curator/curator.yml:/etc/curator/config/curator.yml:ro
+            - ./curator/action/:/etc/curator/action:ro
+            - ./curator/log/:/var/log/curator:rw
+
+    idstools:
+        image: securityonion/so-idstools:2.3.3
+        volumes: 
+            - ./idstools/etc:/opt/so/idstools/etc:ro
+            - ./idstools/nids:/opt/so/rules/nids:rw
+
+#    sensoroni:
+#        image: securityonion/so-soc:2.3.3
+
+#    telegraf:
+#        image: securityonion/so-telegraf:2.3.3
+#        volumes: 
+#            - ./telegraf/log:/var/log/telegraf:rw
+#            - ./telegraf/etc/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+#            - ./telegraf/utmp:/var/run/utmp:ro
+#           # - /var/run/docker.sock:/var/run/docker.sock:ro
+#           # - /:/host/root:ro
+#           # - /sys:/host/sys:ro
+#           # - /proc:/host/proc:ro
+#           # - /nsm:/host/nsm:ro
+#           # - /etc:/host/etc:ro
+#           # - /etc/pki/influxdb.crt:/etc/telegraf/telegraf.crt:ro
+#           # - /etc/pki/influxdb.key:/etc/telegraf/telegraf.key:ro
+#            - ./telegraf/scripts:/scripts:ro
+#            - ./stenographer/log/:/var/log/stenographer:ro
+#            - ./suricata/log:/var/log/suricata:ro
+
+#    steno:
+#        image: securityonion/so-steno:2.3.3
+#        volumes: 
+#            - ./steno/logs:/var/log/stenographer/stenographer.log:rw
+#        user: root
+
+    zeek:
+        image: securityonion/so-zeek:2.3.3
+        volumes: 
+            - ./zeek/logs:/nsm/zeek/logs:rw
+            - ./zeek/spool:/nsm/zeek/spool:rw
+            - ./zeek/extracted:/nsm/zeek/extracted:rw
+            - ./zeek/local.zeek:/opt/zeek/share/zeek/site/local.zeek:ro
+            - ./zeek/node.cfg:/opt/zeek/etc/node.cfg:ro
+            - ./zeek/zeekctl.cfg:/opt/zeek/etc/zeekctl.cfg:ro
+            - ./zeek/policy/securityonion:/opt/zeek/share/zeek/policy/securityonion:ro
+            - ./zeek/policy/custom:/opt/zeek/share/zeek/policy/custom:ro
+            - ./zeek/policy/cve-2020-0601:/opt/zeek/share/zeek/policy/cve-2020-0601:ro
+            - ./zeek/policy/intel:/opt/zeek/share/zeek/policy/intel:rw
+            - ./zeek/bpf:/opt/zeek/etc/bpf:ro 
+
+    soctopus:
+        image: securityonion/so-soctopus:2.3.3
+        ports: 
+            - 7000:7000
+        volumes: 
+            - ./soctopus/SOCtopus.conf:/SOCtopus/SOCtopus.conf:ro
+            - ./soctopus/log/:/var/log/SOCtopus/:rw
+            - ./elastalert/Rules/playbook:/etc/playbook-rules:rw
+            - ./navigator/nav_layer_playbook.json:/etc/playbook/nav_layer_playbook.json:rw
+
+    nginx: 
+        depends_on: 
+            - kibana
+            - soc
+            - cyberchef
+        image: securityonion/so-nginx:2.3.3
+        ports:
+            - 80:80
+            - 443:443
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+

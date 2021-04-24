@@ -1,0 +1,20 @@
+{
+  "logFilename": "/opt/sensoroni/logs/sensoroni.log",
+  "logLevel":"info",
+  "agent": {
+    "pollIntervalMs": 1000,
+    "serverUrl": "https://securityonion/sensoroniagents",
+    "verifyCert": false,
+    "modules": {
+      "importer": {},
+      "statickeyauth": {
+        "apiKey": "96wtBlDYQypNNOuKWnb6"
+      },
+      "stenoquery": {
+        "executablePath": "/opt/sensoroni/scripts/stenoquery.sh",
+        "pcapInputPath": "/nsm/pcap",
+        "pcapOutputPath": "/nsm/pcapout"
+      }
+    }
+  }
+}

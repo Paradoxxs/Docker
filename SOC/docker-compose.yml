@@ -1,0 +1,43 @@
+version: "3.8"
+services: 
+    SOC:
+        image: securityonion/so-soc:2.3.2
+        ports: 
+            - 9822:9822
+    
+    elasticsearch:
+        image: securityonion/so-elasticsearch:2.3.2
+        ports: 
+            - 9200:9200
+            - 9300:9300
+
+    kibana:
+        depends_on: 
+            - elasticsearch
+        image: securityonion/so-kibana:2.3.2
+        ports: 
+            - 5601:5601
+    
+
+    soctopus: 
+        depends_on: 
+            - elasticsearch
+        image: securityonion/so-soctopus:2.3.2
+        ports: 
+            - 7000:7000
+
+    zeek: 
+        image:  securityonion/so-zeek:2.3.2
+
+    cyberchef: 
+        image: mpepping/cyberchef:latest
+        ports:
+            - 8000:8000
+
+    nginx: 
+        image: securityonion/so-nginx:2.3.10
+        ports:
+            - 80:80
+            - 443:443
+        volumes: 
+            - ./nginx.conf:/opt/so/conf/nginx/nginx.conf

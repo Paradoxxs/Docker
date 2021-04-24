@@ -1,0 +1,202 @@
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:13Z"}
+[POP] 2020/11/02 10:27:14 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-02T10:27:14Z"}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:35638","request":"/","time":"2020-11-02T10:27:40Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:35638","request":"/","status":404,"text_status":"Not Found","time":"2020-11-02T10:27:40Z","took":95099600}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:35644","request":"/favicon.ico","time":"2020-11-02T10:27:41Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:35644","request":"/favicon.ico","status":404,"text_status":"Not Found","time":"2020-11-02T10:27:41Z","took":1334600}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+[POP] 2020/11/02 11:48:57 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-02T11:48:57Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+[POP] 2020/11/02 11:49:19 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-02T11:49:19Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+[POP] 2020/11/02 12:01:16 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-02T12:01:16Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+[POP] 2020/11/02 12:02:23 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-02T12:02:23Z"}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:36480","request":"/","time":"2020-11-02T12:02:34Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:36480","request":"/","status":404,"text_status":"Not Found","time":"2020-11-02T12:02:34Z","took":3168500}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:36480","request":"/","time":"2020-11-02T12:02:59Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:36480","request":"/","status":404,"text_status":"Not Found","time":"2020-11-02T12:02:59Z","took":15285600}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:36480","request":"/login","time":"2020-11-02T12:03:04Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.24.0.1:36480","request":"/login","status":404,"text_status":"Not Found","time":"2020-11-02T12:03:04Z","took":2108900}
+{"audience":"application","level":"info","msg":"Courier worker was shutdown gracefully.","service_name":"kratos","service_version":"","time":"2020-11-03T06:08:43Z"}
+{"audience":"application","level":"info","msg":"Public httpd was shutdown gracefully","service_name":"kratos","service_version":"","time":"2020-11-03T06:08:43Z"}
+{"audience":"application","level":"info","msg":"Admin httpd was shutdown gracefully","service_name":"kratos","service_version":"","time":"2020-11-03T06:08:43Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:17Z"}
+[POP] 2020/11/04 06:33:18 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-04T06:33:18Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+[POP] 2020/11/06 07:53:58 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-06T07:53:58Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+[POP] 2020/11/06 08:14:21 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-06T08:14:21Z"}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/login","time":"2020-11-06T08:40:43Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/login","status":302,"text_status":"Found","time":"2020-11-06T08:40:43Z","took":35486400}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/requests/login?request=10be54e0-3e3a-44a7-a54d-bec4e37a4b69","time":"2020-11-06T08:40:56Z"}
+{"audience":"application","error":{"debug":"","message":"The requested action was forbidden","reason":"A request failed due to a missing or invalid csrf_token value.","status":"Forbidden","status_code":403},"http_request":{"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","referer":"http://localhost/login/?request=10be54e0-3e3a-44a7-a54d-bec4e37a4b69","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51","x-forwarded-for":"172.19.0.1","x-forwarded-proto":"http"},"host":"localhost","method":"GET","path":"/self-service/browser/flows/requests/login","query":"Value is sensitive and has been redacted. To see the value set config key \"log.leak_sensitive_values = true\" or environment variable \"LOG_LEAK_SENSITIVE_VALUES=true\".","remote":"172.19.0.9:54132","scheme":"http"},"http_response":{"status_code":403},"level":"error","msg":"An error occurred while handling a request","service_name":"kratos","service_version":"","time":"2020-11-06T08:40:56Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/requests/login?request=10be54e0-3e3a-44a7-a54d-bec4e37a4b69","status":403,"text_status":"Forbidden","time":"2020-11-06T08:40:56Z","took":5104000}
+{"level":"info","method":"POST","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/login/strategies/password?request=10be54e0-3e3a-44a7-a54d-bec4e37a4b69","time":"2020-11-06T08:41:06Z"}
+{"audience":"application","expected_token":"n6k3Cpoh/27XxX8H3UkqqQOApBnkovwOoVMablEl4xWVnNGerHBmkNN0rf4ZEl48re1gq7ylDavze5mgW1X9Mg==","level":"warning","msg":"A request failed due to a missing or invalid csrf_token value","received_token":"","received_token_form":"","service_name":"kratos","service_version":"","time":"2020-11-06T08:41:06Z"}
+{"audience":"application","error":{"debug":"","message":"The request was malformed or contained invalid parameters","reason":"CSRF token is missing or invalid.","status":"Bad Request","status_code":400},"http_request":{"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","origin":"http://localhost","referer":"http://localhost/login/?request=10be54e0-3e3a-44a7-a54d-bec4e37a4b69","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51","x-forwarded-for":"172.19.0.1","x-forwarded-proto":"http"},"host":"localhost","method":"POST","path":"/self-service/browser/flows/login/strategies/password","query":"Value is sensitive and has been redacted. To see the value set config key \"log.leak_sensitive_values = true\" or environment variable \"LOG_LEAK_SENSITIVE_VALUES=true\".","remote":"172.19.0.9:54138","scheme":"http"},"http_response":{"status_code":400},"level":"error","msg":"An error occurred while handling a request","service_name":"kratos","service_version":"","time":"2020-11-06T08:41:06Z"}
+{"level":"info","method":"POST","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/login/strategies/password?request=10be54e0-3e3a-44a7-a54d-bec4e37a4b69","status":400,"text_status":"Bad Request","time":"2020-11-06T08:41:06Z","took":1329800}
+{"level":"info","method":"GET","msg":"started handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/login","time":"2020-11-06T08:41:20Z"}
+{"level":"info","method":"GET","msg":"completed handling request","name":"public#https://Localhost/auth/","remote":"172.19.0.1","request":"/self-service/browser/flows/login","status":302,"text_status":"Found","time":"2020-11-06T08:41:20Z","took":24536700}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+[POP] 2020/11/06 09:01:28 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-06T09:01:28Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+[POP] 2020/11/06 09:02:48 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-06T09:02:48Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+[POP] 2020/11/06 09:16:09 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-06T09:16:09Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+[POP] 2020/11/09 08:48:45 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-09T08:48:45Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+[POP] 2020/11/09 12:32:10 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-09T12:32:10Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+[POP] 2020/11/09 12:35:34 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-09T12:35:34Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+[POP] 2020/11/09 12:41:51 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-09T12:41:51Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+[POP] 2020/11/09 12:52:42 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-09T12:52:42Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+[POP] 2020/11/10 12:04:22 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-10T12:04:22Z"}
+{"audience":"application","level":"info","msg":"Courier worker was shutdown gracefully.","service_name":"kratos","service_version":"","time":"2020-11-10T13:30:22Z"}
+{"audience":"application","level":"info","msg":"Admin httpd was shutdown gracefully","service_name":"kratos","service_version":"","time":"2020-11-10T13:30:22Z"}
+{"audience":"application","level":"info","msg":"Public httpd was shutdown gracefully","service_name":"kratos","service_version":"","time":"2020-11-10T13:30:22Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+[POP] 2020/11/10 13:55:26 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-10T13:55:26Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+[POP] 2020/11/11 09:49:08 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-11T09:49:08Z"}
+{"audience":"application","level":"info","msg":"Config file loaded successfully.","path":"/kratos-conf/kratos.yaml","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+[POP] 2020/11/11 10:12:47 warn - ignoring file .gitignore because it does not match the migration file pattern
+{"audience":"application","level":"warning","msg":"The config has no version specified. Add the version to improve your development experience.","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+{"audience":"application","level":"info","msg":"Courier worker started.","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+{"audience":"application","level":"warning","msg":"Command line argument \"--disable-telemetry\" has been deprecated and will be removed in an upcoming release. Use \"--sqa-opt-out\" instead.","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+{"audience":"application","level":"info","msg":"Starting the admin httpd on: 0.0.0.0:4434","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+{"audience":"application","level":"info","msg":"No tracer configured - skipping tracing setup","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}
+{"audience":"application","level":"info","msg":"Starting the public httpd on: 0.0.0.0:4433","service_name":"kratos","service_version":"","time":"2020-11-11T10:12:47Z"}

@@ -1,0 +1,7 @@
+
+
+alert: modules.so.playbook-es.PlaybookESAlerter
+elasticsearch_host: "192.168.249.131:9200"
+play_title: ""
+play_url: "https://192.168.249.131/playbook/issues/6000"
+sigma_level: ""

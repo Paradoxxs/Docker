@@ -1,0 +1,14 @@
+
+alert:
+- "modules.so.playbook-es.PlaybookESAlerter"
+ 
+elasticsearch_host: "192.168.249.131:9200"
+play_title: ""
+event.module: "playbook"
+event.dataset: "alert"
+event.severity:
+rule.category: 
+play_url: "https://192.168.249.131/playbook/issues/6000"
+kibana_pivot: "https://192.168.249.131/kibana/app/kibana#/discover?_g=()&_a=(columns:!(_source),interval:auto,query:(language:lucene,query:'_id:{[_id]}'),sort:!('@timestamp',desc))"
+soc_pivot: "https://192.168.249.131/#/hunt"
+sigma_level: ""
